@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package test2;
+
+message Quaternion {
+  optional float n1 = 1;
+  optional float n2 = 2;
+  optional float n3 = 3;
+  optional float n4 = 4;
+  
+}
+
+message Array {
+  repeated Quaternion orientation = 1;
+}
