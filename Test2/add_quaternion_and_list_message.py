@@ -104,3 +104,8 @@ Serialize(array)
 Parse(array)
 OverwriteQuaternion(array.orientation, quat, j-1)
 Serialize(array)
+
+# Print message file information
+Parse(array)
+ListOrientation(array)
+Serialize(array)
